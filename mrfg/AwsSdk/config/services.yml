@@ -1,0 +1,6 @@
+services:
+    mrfg.AwsSdk.service:
+        class: mrfg\AwsSdk\service
+        arguments:
+            - '@user'
+            - '%mrfg.AwsSdk.tables.demo_table%'
